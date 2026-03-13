@@ -1,6 +1,6 @@
 # Motor Insurance Risk Modelling
 
-![Claim Frequency Analysis](visuals/driver_age_risk.png)
+![Claim Count Distribution](visuals/claim_count_frequency.png)
 
 This project performs an actuarial analysis of motor insurance claim frequency using the **freMTPL2 dataset**.
 The objective is to identify key risk factors influencing claim frequency and to build statistical models used in insurance pricing.
@@ -120,17 +120,22 @@ This improvement is expected because the Negative Binomial model accounts for **
 
 ---
 
-# Visualisations
+## Visualisations
 
-Example visual outputs generated in this project:
+Example visual outputs generated in this project.
 
-Claim Frequency Distribution
+### Claim Count Distribution
 
-![Claim Distribution](visuals/claim_distribution.png)
+This plot shows the distribution of claim counts across policies.  
+Most policies have zero claims, while higher claim counts occur much less frequently, resulting in a highly skewed distribution typical in insurance datasets.
 
-Observed vs Predicted Claim Frequency
+![Claim Count Distribution](visuals/claim_count_frequency.png)
 
-![Model Validation](visuals/model_validation_driver_age.png)
+### Observed vs Predicted Claim Frequency
+
+This chart compares observed claim frequencies with the frequencies predicted by the GLM model across driver age bands.
+
+![Observed vs Predicted Claim Frequency](visuals/model_validation_driver_age.png)
 
 ---
 
@@ -160,7 +165,7 @@ Motor-Insurance-Risk-Modelling
 Clone the repository
 
 ```
-git clone https://github.com/yourusername/motor-insurance-risk-modelling.git
+git clone https://github.com/Nidhi-analysis/Nidhi-analysis-Motor-Insurance-Risk-Modelling.git
 ```
 
 Install dependencies
@@ -195,5 +200,4 @@ This project was implemented using Python with the following libraries:
 
 **Nidhi Sharma**
 
-Aspiring Actuarial & Data Analyst
-Interested in actuarial science, risk modelling, and insurance analytics.
+Aspiring Actuarial and Data Analyst with interests in actuarial science, risk modelling, and insurance analytics.
